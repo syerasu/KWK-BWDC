@@ -39,7 +39,7 @@
     ];
 
     let chart;
-    let thirdSeriesVisible = true;
+    let thirdSeriesVisible = false;
 
     let options = {
         chart: {
