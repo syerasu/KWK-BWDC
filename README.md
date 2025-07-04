@@ -9,7 +9,7 @@ This template is a starting point / example of how to create a scrollytelling pi
 ## How to clone the repo
 On this repo's homepage in GitHub, click the `Use this template` button. Select the option to create a new repository. This will create a new repo under your GitHub account.
 
-![alt text](image.png)
+![Use this template button](readme_image_template_button.png)
 
 Navigate to your new copy of this template in your GitHub profile. 
 
