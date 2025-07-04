@@ -1,13 +1,61 @@
 <script>
-    let { children } = $props();
+    export let layout = "right"; // 'left' or 'right'
 </script>
 
-<div class="scroll-wrapper">
-    {@render children?.()}
+<div class="wrapper {layout}">
+    <div class="sticky">
+        <slot name="sticky" />
+    </div>
+
+    <div class="scrolly">
+        <slot name="scrolly" />
+    </div>
 </div>
 
 <style>
-    div.scroll-wrapper {
-        width: 50vw;
+    .wrapper {
+        background-color: #f7f5eb;
+        padding: min(50vh, 30rem) 1rem;
+        border-style: solid;
+        border-color: #4096fa;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .left .scrolly {
+        order: 0;
+    }
+    .left .sticky {
+        order: 1;
+    }
+
+    .right .scrolly {
+        order: 1;
+    }
+    .right .sticky {
+        order: 0;
+    }
+
+    .sticky,
+    .scrolly {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1; /* Allows growing, shrinking */
+    }
+
+    .sticky {
+        position: sticky;
+        top: 50vh;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+    }
+
+    .scrolly {
+        z-index: 1;
     }
 </style>
