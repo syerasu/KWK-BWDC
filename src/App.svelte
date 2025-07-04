@@ -2,9 +2,11 @@
   import ScrollWrapper from "./lib/ScrollWrapper.svelte";
   import Scrolly from "./lib/Scrolly.svelte";
   import Sticky from "./lib/Sticky.svelte";
+  import Introduction from "./sections/Introduction.svelte";
 </script>
 
 <main>
+  <Introduction></Introduction>
   <ScrollWrapper>
     <Sticky>
       <p>Sticky content!</p>

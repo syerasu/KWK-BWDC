@@ -8,6 +8,6 @@
 
 <style>
     div.scroll-wrapper {
-        width: 50%;
+        width: 50vw;
     }
 </style>
