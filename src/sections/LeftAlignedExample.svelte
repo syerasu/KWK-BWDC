@@ -2,7 +2,7 @@
     import * as Highcharts from "highcharts";
     import "highcharts/modules/exporting";
     import { Chart } from "@highcharts/svelte";
-    import ScrollWrapper from "../lib/ScrollWrapper.svelte";
+    import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
 
     const series = [
@@ -43,7 +43,7 @@
 
     let options = {
         chart: {
-            type: "line",
+            type: "spline",
             backgroundColor: "#e3ff00",
             borderColor: "#007052",
             borderWidth: 5,
@@ -72,7 +72,7 @@
 </script>
 
 <div>
-    <ScrollWrapper layout="left">
+    <Scroller layout="left">
         <svelte:fragment slot="sticky">
             <div class="chart">
                 <Chart bind:chart {options} highcharts={Highcharts} />
@@ -80,44 +80,43 @@
             <button on:click={toggleThirdSeries} class="toggle-button">
                 {thirdSeriesVisible ? "Remove Group 3" : "Add Group 3"}
             </button>
+            <div>
+                <p>You can use Svelte to add and remove data from the chart.</p>
+                <p>
+                    When you click the button above, a third group is toggled in
+                    the chart. Check out the source code to see how it's done.
+                </p>
+                <p>
+                    How might you use other HTML elements, like checkboxes or
+                    radio buttons, in a similar way to filter data?
+                </p>
+            </div>
         </svelte:fragment>
 
         <svelte:fragment slot="scrolly">
             <ArticleText>
                 <svelte:fragment slot="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum."
+                    You might notice that this template doesn't have certain
+                    features that are common in scrollytelling.
                 </svelte:fragment>
             </ArticleText>
 
             <ArticleText>
                 <svelte:fragment slot="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    For example, you might want to create a title card feature
+                    that takes up the whole screen when a user first opens up
+                    your final project.
                 </svelte:fragment>
             </ArticleText>
 
             <ArticleText>
                 <svelte:fragment slot="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum."
+                    You might also want to add more interactivity or gamify
+                    parts of your scrollytelling piece.
                 </svelte:fragment>
             </ArticleText>
         </svelte:fragment>
-    </ScrollWrapper>
+    </Scroller>
 </div>
 
 <style>
