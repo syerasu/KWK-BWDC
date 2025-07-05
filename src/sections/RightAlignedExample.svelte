@@ -12,7 +12,6 @@
                 type: "xy",
             },
         },
-
         title: {
             text: "An Example Pie Chart",
         },
@@ -76,7 +75,9 @@
 <div>
     <Scroller layout="right">
         {#snippet sticky()}
-            <Chart {options} highcharts={Highcharts} />
+            <div class="chart">
+                <Chart {options} highcharts={Highcharts} />
+            </div>
             <p>
                 Here's an example chart using
                 <a href="https://www.highcharts.com/">Highcharts</a>!
@@ -128,3 +129,10 @@
         {/snippet}
     </Scroller>
 </div>
+
+<style>
+    .chart {
+        width: 90%;
+        margin: 0px auto;
+    }
+</style>

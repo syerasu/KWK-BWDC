@@ -2,11 +2,11 @@
   import LeftAlignedExample from "./sections/LeftAlignedExample.svelte";
   import RightAlignedExample from "./sections/RightAlignedExample.svelte";
   import ImageExample from "./sections/ImageExample.svelte";
-    import TitleCard from "./lib/TitleCard.svelte";
+  import TitleSection from "./sections/TitleSection.svelte";
 </script>
 
 <main>
-  <TitleCard/>
+  <TitleSection />
   <RightAlignedExample />
   <LeftAlignedExample />
   <ImageExample />
