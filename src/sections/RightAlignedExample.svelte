@@ -8,9 +8,6 @@
     let options = {
         chart: {
             type: "pie",
-            zooming: {
-                type: "xy",
-            },
         },
         title: {
             text: "An Example Pie Chart",
@@ -123,7 +120,7 @@
             </ArticleText>
 
             <ArticleText>
-                This is only one way that scrollytelling can look. If you use
+                This is just one way that scrollytelling can look. If you use
                 this template, be sure to modify it and make it your own!
             </ArticleText>
         {/snippet}
