@@ -11,17 +11,12 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <svelte:fragment slot="text">
-                    Your final project might look totally different from this template! 
-                </svelte:fragment>
+                Your final project might look totally different from this
+                template!
             </ArticleText>
 
-            <ArticleText>
-                <svelte:fragment slot="text">
-                    It's yours to create.
-                </svelte:fragment>
-            </ArticleText>
-            {/snippet}
+            <ArticleText>It's yours to create.</ArticleText>
+        {/snippet}
     </Scroller>
 </div>
 

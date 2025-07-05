@@ -107,32 +107,23 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <svelte:fragment slot="text">
-                    Welcome to the KWK Data Scrollytelling Template!
-                </svelte:fragment>
+                Welcome to the KWK Data Scrollytelling Template!
             </ArticleText>
 
             <ArticleText>
-                <svelte:fragment slot="text">
-                    This is a basic example of how you might create a
-                    scrollytelling piece using Svelte and Highcharts.
-                </svelte:fragment>
+                This is a basic example of how you might create a scrollytelling
+                piece using Svelte and Highcharts.
             </ArticleText>
 
             <ArticleText>
-                <svelte:fragment slot="text">
-                    You can use this template as a starting point for your
-                    project. Or, if you want to build something from scratch,
-                    you can use it as a reference for specific functionality.
-                </svelte:fragment>
+                You can use this template as a starting point for your project.
+                Or, if you want to build something from scratch, you can use it
+                as a reference for specific functionality.
             </ArticleText>
 
             <ArticleText>
-                <svelte:fragment slot="text">
-                    This is only one way that scrollytelling can look. If you
-                    use this template, be sure to modify it and make it your
-                    own!
-                </svelte:fragment>
+                This is only one way that scrollytelling can look. If you use
+                this template, be sure to modify it and make it your own!
             </ArticleText>
         {/snippet}
     </Scroller>

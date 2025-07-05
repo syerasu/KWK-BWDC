@@ -15,7 +15,7 @@
 <style>
     .wrapper {
         background-color: #f7f5eb;
-        padding: min(50vh, 30rem) 1rem;
+        padding: min(100vh, 30rem) 1rem;
         border-style: solid;
         border-color: #4096fa;
         display: flex;
@@ -57,5 +57,25 @@
 
     .scrolly {
         z-index: 1;
+    }
+
+    @media (max-width: 768px) {
+        .wrapper {
+            flex-direction: column;
+            padding: 2rem 1rem;
+            width: 100vw;
+        }
+
+        .sticky,
+        .scrolly {
+            flex: 1 1 auto;
+            min-width: 100%;
+            position: static; /* remove sticky on mobile */
+            transform: none;
+        }
+
+        .sticky {
+            margin-bottom: 2rem;
+        }
     }
 </style>

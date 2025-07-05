@@ -1,6 +1,10 @@
+<script>
+    let { children } = $props();
+</script>
+
 <div class="article-text">
     <p>
-        <slot name="text" />
+        {@render children()}
     </p>
 </div>
 

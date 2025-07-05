@@ -95,25 +95,19 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <svelte:fragment slot="text">
-                    You might notice that this template doesn't have certain
-                    features that are common in scrollytelling.
-                </svelte:fragment>
+                You might notice that this template doesn't have certain
+                features that are common in scrollytelling.
             </ArticleText>
 
             <ArticleText>
-                <svelte:fragment slot="text">
-                    For example, you might want to create a title card feature
-                    that takes up the whole screen when a user first opens up
-                    your final project.
-                </svelte:fragment>
+                For example, you might want a component that doesn't feature a
+                sticky component at all. Or a component that is solely a sticky
+                component.
             </ArticleText>
 
             <ArticleText>
-                <svelte:fragment slot="text">
-                    You might also want to add more interactivity or gamify
-                    parts of your scrollytelling piece.
-                </svelte:fragment>
+                You might also want to add more interactivity or gamify parts of
+                your scrollytelling piece.
             </ArticleText>
         {/snippet}
     </Scroller>
