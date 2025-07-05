@@ -5,7 +5,7 @@
 </script>
 
 <main>
-  <RightAlignedExample></RightAlignedExample>
-  <LeftAlignedExample></LeftAlignedExample>
-  <ImageExample></ImageExample>
+  <RightAlignedExample />
+  <LeftAlignedExample />
+  <ImageExample />
 </main>
