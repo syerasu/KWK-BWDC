@@ -75,7 +75,7 @@
 
 <div>
     <Scroller layout="right">
-        <svelte:fragment slot="sticky">
+        {#snippet sticky()}
             <Chart {options} highcharts={Highcharts} />
             <p>
                 Here's an example chart using
@@ -103,9 +103,9 @@
                 to understand what each element in the <code>options</code> object
                 does.
             </p>
-        </svelte:fragment>
+        {/snippet}
 
-        <svelte:fragment slot="scrolly">
+        {#snippet scrolly()}
             <ArticleText>
                 <svelte:fragment slot="text">
                     Welcome to the KWK Data Scrollytelling Template!
@@ -134,6 +134,6 @@
                     own!
                 </svelte:fragment>
             </ArticleText>
-        </svelte:fragment>
+        {/snippet}
     </Scroller>
 </div>

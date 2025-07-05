@@ -73,7 +73,7 @@
 
 <div>
     <Scroller layout="left">
-        <svelte:fragment slot="sticky">
+        {#snippet sticky()}
             <div class="chart">
                 <Chart bind:chart {options} highcharts={Highcharts} />
             </div>
@@ -91,9 +91,9 @@
                     radio buttons, in a similar way to filter data?
                 </p>
             </div>
-        </svelte:fragment>
+        {/snippet}
 
-        <svelte:fragment slot="scrolly">
+        {#snippet scrolly()}
             <ArticleText>
                 <svelte:fragment slot="text">
                     You might notice that this template doesn't have certain
@@ -115,7 +115,7 @@
                     parts of your scrollytelling piece.
                 </svelte:fragment>
             </ArticleText>
-        </svelte:fragment>
+        {/snippet}
     </Scroller>
 </div>
 

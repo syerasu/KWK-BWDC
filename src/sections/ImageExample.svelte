@@ -5,11 +5,11 @@
 
 <div>
     <Scroller layout="right">
-        <svelte:fragment slot="sticky">
+        {#snippet sticky()}
             <img class="duck-img" src="duck.png" alt="KWK rubber duck!" />
-        </svelte:fragment>
+        {/snippet}
 
-        <svelte:fragment slot="scrolly">
+        {#snippet scrolly()}
             <ArticleText>
                 <svelte:fragment slot="text">
                     Your final project might look totally different from this template! 
@@ -21,7 +21,7 @@
                     It's yours to create.
                 </svelte:fragment>
             </ArticleText>
-        </svelte:fragment>
+            {/snippet}
     </Scroller>
 </div>
 

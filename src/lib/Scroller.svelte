@@ -1,14 +1,14 @@
 <script>
-    export let layout = "right"; // 'left' or 'right'
+    let { layout, sticky, scrolly } = $props();
 </script>
 
 <div class="wrapper {layout}">
     <div class="sticky">
-        <slot name="sticky" />
+        {@render sticky()}
     </div>
 
     <div class="scrolly">
-        <slot name="scrolly" />
+        {@render scrolly()}
     </div>
 </div>
 
