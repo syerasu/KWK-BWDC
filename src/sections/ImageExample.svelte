@@ -11,8 +11,10 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                Your final project might look totally different from this
-                template!
+                <strong>
+                    Your final project might look totally different from this
+                    template!
+                </strong>
             </ArticleText>
 
             <ArticleText>It's yours to create.</ArticleText>

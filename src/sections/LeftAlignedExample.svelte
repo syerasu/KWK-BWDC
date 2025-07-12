@@ -81,21 +81,27 @@
                 {thirdSeriesVisible ? "Remove Group 3" : "Add Group 3"}
             </button>
             <div>
-                <p>You can use Svelte to add and remove data from the chart.</p>
+                <p>
+                    You can use Svelte to add and remove data from a Highcharts
+                    chart.
+                </p>
                 <p>
                     When you click the button above, a third group is toggled in
                     the chart. Check out the source code to see how it's done.
                 </p>
                 <p>
-                    How might you use other HTML elements, like checkboxes or
-                    radio buttons, in a similar way to filter data?
+                    <strong
+                        >🤔 How might you use other HTML elements, like
+                        checkboxes or radio buttons, in a similar way to filter
+                        data?</strong
+                    >
                 </p>
             </div>
         {/snippet}
 
         {#snippet scrolly()}
             <ArticleText>
-                You might notice that this template doesn't have certain
+                You might notice that this basic template doesn't have certain
                 features that are common in scrollytelling.
             </ArticleText>
 
@@ -108,6 +114,13 @@
             <ArticleText>
                 You might also want to add more interactivity or gamify parts of
                 your scrollytelling piece.
+            </ArticleText>
+
+            <ArticleText>
+                <strong>
+                    It's up to you to research how to create the effects and
+                    functionality that you envision!
+                </strong>
             </ArticleText>
         {/snippet}
     </Scroller>
