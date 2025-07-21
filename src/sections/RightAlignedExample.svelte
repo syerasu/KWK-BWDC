@@ -10,7 +10,7 @@
             type: "pie",
         },
         title: {
-            text: "An Example Pie Chart",
+            text: "Average Household Expenditure in the Bronx, New York (2024)",
         },
         plotOptions: {
             pie: {
