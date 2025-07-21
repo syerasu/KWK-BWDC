@@ -12,7 +12,7 @@
 
 <style>
     .household-income {
-        background: #333333;
+        background: #f5f2ea;
         height: 100vh;
         display: flex;
         justify-content: center;
