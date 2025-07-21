@@ -24,18 +24,18 @@
 
     .content {
         max-width: 700px;
-        background-color: #034c36;
+        background-color: #030352 ;
         padding: 2rem;
         border: 6px solid #e3ff00;
         border-radius: 2rem;
-        box-shadow: 16px 16px #188f70;
+        box-shadow: 16px 16px #030352;
     }
 
     h1 {
         font-size: 3rem;
         margin: 0;
         color: #e3ff00;
-        text-shadow: 1px 1px 0 #007052;
+        text-shadow: 1px 1px 0 #030352;
     }
 
     p {
