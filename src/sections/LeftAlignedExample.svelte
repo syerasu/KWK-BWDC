@@ -61,12 +61,7 @@ Highcharts.chart('container', {
                         >🤔 How might you use other HTML elements, like
                         checkboxes or radio buttons, in a similar way to filter
                         data?</strong
-                    >
-                </p>
-            </div>
-        {/snippet}
-
-        {#snippet scrolly()}
+    
             <ArticleText>
                 You might notice that this basic template doesn't have certain
                 features that are common in scrollytelling.
