@@ -12,7 +12,7 @@
       type: "column"
     },
     title: {
-      text: "Household Income vs Amount Spent on Rent for 2023"
+      text: "Rate of Degree Attainment vs Average Yearly Expenditures"
     },
     subtitle: {
       text:
@@ -76,74 +76,38 @@
         <Chart bind:chart {options} highcharts={Highcharts} />
       </div>
 
-      <button on:click={toggleExampleSeries} class="toggle-button">
-        Toggle Example Group
-      </button>
-
-      <div>
-        <p>
-          You can use Svelte to add and remove data from a Highcharts chart.
-        </p>
-        <p>
-          The button above toggles an additional data series. Try adding
-          checkboxes or dropdowns to filter even more interactively.
-        </p>
-        <p>
-          <strong>
-            💡 Think about how your visualizations help guide the reader’s
-            attention.
-          </strong>
-        </p>
-      </div>
     {/snippet}
 
     {#snippet scrolly()}
       <ArticleText>
-        You might notice that this basic template doesn't have certain features
-        that are common in scrollytelling.
+        Observe the percentage of the population that holds a Bachelor's Degree or Higher vs the percentage of the population that has acess to internet usage. (There are <strong>MUCH</strong> more people with acess to the internet than those with a Bachelor's Degree or Higher.)
       </ArticleText>
 
       <ArticleText>
-        For example, you might want a component that doesn't feature a sticky
-        component at all. Or a component that is solely a sticky component.
+        <strong> Access ≠ Attainment</strong> 
+        While the internet is accessible to a large portion of the population, it does not guarantee that individuals know how to use it effectively for educational purposes.
       </ArticleText>
 
       <ArticleText>
-        You might also want to add more interactivity or gamify parts of your
-        scrollytelling piece.
+        Digital literacy is not emphasized enough today, leading to gaps in peoples lives and education.
       </ArticleText>
 
-      <ArticleText>
-        <strong>
-          It's up to you to research how to create the effects and functionality
-          that you envision!
-        </strong>
-      </ArticleText>
+<ArticleText>
+  <strong>
+    There are many free sites online that can help the underprivileged learn how to use the internet effectively, such as 
+    <a href="https://www.khanacademy.org" target="_blank" rel="noopener noreferrer">Khan Academy</a>, 
+    <a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">Codecademy</a>, and 
+    <a href="https://www.coursera.org" target="_blank" rel="noopener noreferrer">Coursera</a>.
+  </strong>
+</ArticleText>
+
     {/snippet}
   </Scroller>
 </div>
 
 <style>
   .chart {
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
-  }
-
-  .toggle-button {
-    margin: 20px;
-    padding: 20px;
-    color: #007052;
-    background-color: #0bd956;
-    border: solid 2px #007052;
-    border-radius: 16px;
-    font-size: large;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    box-shadow: 0 4px 0 #007052;
-  }
-
-  .toggle-button:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 0 #007052;
   }
 </style>
