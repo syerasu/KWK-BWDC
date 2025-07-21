@@ -27,9 +27,8 @@
         max-width: 700px;
         background-color: #02022d ;
         padding: 2rem;
-        border: 6px solid  #f5f2ea;
-        border-radius: 2rem;
-        box-shadow: 16px 16px #333333
+        border: 6px solid #D4AF37;
+        box-shadow: 16px 16px #FFECB3
 ;
     }
 
@@ -37,7 +36,7 @@
         font-size: 3rem;
         margin: 0;
         color: #f5f2ea;
-        text-shadow: 1px 1px 0 #333333
+        text-shadow: 1px 1px 0 #FFECB3 
 ;
     }
 
