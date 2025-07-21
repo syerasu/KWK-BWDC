@@ -11,7 +11,8 @@
 
 <style>
     .title-card {
-        background: url('/sadchild.jpg');
+        background: url('/internet-background.jpg') no-repeat center center;
+        background-size: cover;
         height: 100vh;
         display: flex;
         justify-content: center;
