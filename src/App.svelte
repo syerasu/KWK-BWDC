@@ -1,5 +1,5 @@
 <script>
-  import HouseholdIncome from "./lib/HouseholdIncomeSection.svelte";
+  import HouseholdIncome from "./lib/HouseholdIncome.svelte";
   import LeftAlignedExample from "./sections/LeftAlignedExample.svelte";
   import RightAlignedExample from "./sections/RightAlignedExample.svelte";
   import ImageExample from "./sections/ImageExample.svelte";
