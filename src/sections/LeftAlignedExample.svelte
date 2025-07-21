@@ -48,16 +48,6 @@ Highcharts.chart('container', {
 });
 </script>
 
-<div>
-    <Scroller layout="left">
-        {#snippet sticky()}
-            <div class="chart">
-                <Chart bind:chart {options} highcharts={Highcharts} />
-            </div>
-            <button on:click={toggleThirdSeries} class="toggle-button">
-                {thirdSeriesVisible ? "Remove Group 3" : "Add Group 3"}
-            </button>
-            <div>
                 <p>
                     You can use Svelte to add and remove data from a Highcharts
                     chart.
