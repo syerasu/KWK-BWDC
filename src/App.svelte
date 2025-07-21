@@ -1,4 +1,5 @@
 <script>
+  import HouseholdIncome from "./lib/HouseholdIncomeSection.svelte";
   import LeftAlignedExample from "./sections/LeftAlignedExample.svelte";
   import RightAlignedExample from "./sections/RightAlignedExample.svelte";
   import ImageExample from "./sections/ImageExample.svelte";
@@ -11,6 +12,7 @@
 
 <main>
   <TitleSection />
+  <HouseholdIncome />
   <RightAlignedExample />
   <LeftAlignedExample />
   <ImageExample />
