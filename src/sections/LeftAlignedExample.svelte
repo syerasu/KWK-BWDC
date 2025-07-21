@@ -4,71 +4,48 @@
     import { Chart } from "@highcharts/svelte";
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
-
-    const series = [
-        {
-            name: "Group 1",
-            data: [
-                [1990, 3],
-                [2000, 4],
-                [2010, 1],
-                [2020, 1],
-            ],
-            color: "#8427c9",
-        },
-        {
-            name: "Group 2",
-            data: [
-                [1990, 2],
-                [2000, 5],
-                [2010, -2],
-                [2020, 2],
-            ],
-            color: "#ff99fc",
-        },
-        {
-            name: "Group 3",
-            data: [
-                [1990, 4],
-                [2000, 3],
-                [2010, 0],
-                [2020, 3],
-            ],
-            color: "#4096fa",
-        },
-    ];
-
-    let chart;
-    let thirdSeriesVisible = false;
-
-    let options = {
-        chart: {
-            type: "spline",
-            backgroundColor: "#e3ff00",
-            borderColor: "#007052",
-            borderWidth: 5,
-            borderRadius: 20,
-        },
-        title: {
-            text: "Another Example Chart",
-        },
-        subtitle: {
-            text: "With a subtitle! And styling!",
-        },
-        series: [series[0], series[1]],
-    };
-
-    function toggleThirdSeries() {
-        const existingSeries = chart.series.find((s) => s.name === "Group 3");
-
-        if (existingSeries) {
-            existingSeries.remove();
-            thirdSeriesVisible = false;
-        } else {
-            chart.addSeries(series[2]);
-            thirdSeriesVisible = true;
+Highcharts.chart('container', {
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Household Income vs Amount Spent on Rent for 2023'
+    },
+    subtitle: {
+        text:
+            'Source: <a target="_blank" ' +
+            'href="https://www.indexmundi.com/agriculture/?commodity=corn">indexmundi</a>'
+    },
+    xAxis: {
+        categories: ['Bachelors Degree or Higher Attainment', 'Population with Health Insurance', 'Population with Broadband Internet Access', 'Population Using Broadband Internet Access'],
+        crosshair: true,
+        accessibility: {
+            description: 'Percentage'
         }
-    }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: '100%'
+        }
+    },
+    tooltip: {
+        valueSuffix: ' (100%)'
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [
+        {
+            name: 'Bronx, NY',
+            data: [27, 92.7, 88.4, 50.0]
+        },
+
+    ]
+});
 </script>
 
 <div>
