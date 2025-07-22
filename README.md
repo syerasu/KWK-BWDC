@@ -20,3 +20,15 @@ Run `npm install` and then `npm run dev` to spin up the project locally. Then, s
 
 ## Credit
 Repo created using vite (`npm create vite@6`)
+Sources used for other data/information on the site: 
+https://thebronx.org/digital-equity-coalition/? 
+https://nycfuture.org/research/understanding-and-overcoming-the-bronx-digital-divide?u
+https://council.nyc.gov/data/internet-access/ 
+https://www.census.gov/library/publications/2023/demo/p60-279.html 
+https://blackwealthdata.org/
+
+Image citations: 
+https://unsplash.com/photos/aerial-photography-of-city-during-night-time-1lfI7wkGWZ4 
+https://www.pexels.com/photo/vehicles-passing-by-road-in-new-york-2168975/ 
+https://unsplash.com/photos/world-map-chart-BEF-7cpER3s
+https://www.pexels.com/photo wooden-frame-with-white-inscription-on-dark-background-4734936/
