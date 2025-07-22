@@ -132,7 +132,7 @@
       </ArticleText>
 
       <ArticleText>
-        <strong>Access ≠ Attainment</strong> — While the internet is accessible to a large
+        <strong>Access ≠ Attainment</strong>: While the internet is accessible to a large
         portion of the population, it does not guarantee that individuals know how to
         use it effectively for educational purposes.
       </ArticleText>
@@ -190,7 +190,7 @@
 
   .image-with-text-overlays {
   position: relative;
-  background-image: url('/pexels-maoriginalphotography-2168975.jpg');
+  background-image: url('public/pexels-maoriginalphotography-2168975.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@
   position: absolute;
   max-width: 50%;
   padding: 1.5rem;
-  background-color: rgba(2, 2, 45, 0.75); /* semi-transparent dark background */
+  background-color: rgba(2, 2, 45, 0.75); 
   border-radius: 0.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
