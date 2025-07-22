@@ -189,7 +189,7 @@
 <section class="left-aligned-section">
   <h2>A map of modern-day inequity</h2>
   <p>
-    This chart reveals a sobering correlation: neighborhoods with the <strong>lowest internet access</strong> often have the <strong>lowest college attainment</strong, too.
+    This chart reveals a sobering correlation: neighborhoods with the <strong>lowest internet access</strong> often have the <strong>lowest college attainment</strong>, too.
   </p>
   <p>
     In communities like Mott Haven, the numbers drop to just <strong>16% with a bachelor’s degree</strong>.
