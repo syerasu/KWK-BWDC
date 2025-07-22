@@ -161,57 +161,25 @@
   </Scroller>
 </div>
 
-<!-- Education + Internet Section -->
+<!-- Section 1 -->
 <section class="left-aligned-section">
   <h2>Disconnected—and left behind</h2>
-  <p>
-    The digital divide mirrors another long-standing barrier: education.
-  </p>
-  <p>
-    In the Bronx, only <strong>22% of adults</strong> hold a bachelor’s degree. That’s nearly half the citywide average.
-  </p>
-  <p>
-    How can students thrive when <em>30% of low-income families</em> with kids can’t get online at home?
-  </p>
+  <p>The digital divide mirrors another long-standing barrier: education.</p>
+  <p>In the Bronx, only <strong>22% of adults</strong> hold a bachelor’s degree. That’s nearly half the citywide average.</p>
+  <p>How can students thrive when <em>30% of low-income families</em> with kids can’t get online at home?</p>
 </section>
 
-<!-- Visual Contrast Section (Insert chart or map here) -->
-<section class="left-aligned-section">
-  <h2>A map of modern-day inequity</h2>
-  <p>
-    This chart reveals a sobering correlation: neighborhoods with the <strong> lowest internet access</strong> often have the <strong>lowest college attainment</strong>, too.
-  </p>
-  <p>
-    In communities like Mott Haven, the numbers drop to just <strong> 16% with a bachelor’s degree</strong>.
-  </p>
-  <p>
-    Technology—and opportunity—aren’t distributed equally.
-  </p>
-</section>
+<!-- Image Between Sections -->
+<div class="section-image">
+  <img src="pexels-maoriginalphotography-2168975.jpg" alt="Bronx education gap" />
+</div>
 
-<!-- Call to Action Section -->
+<!-- Section 3 -->
 <section class="left-aligned-section">
   <h2>Broadband is a basic right</h2>
-  <p>
-    No student should have to chase WiFi in a fast food parking lot to finish homework.
-  </p>
-  <p>
-    No family should have to choose between groceries and a $90/month internet bill.
-  </p>
-  <p>
-    <strong>Digital equity is a racial, economic, and educational justice issue.</strong>
-  </p>
-</section>
-
-<!-- Closing: Hopeful note + resource -->
-<section class="left-aligned-section">
-  <h2>The future is fiber—and fair funding</h2>
-  <p>
-    Organizations like <a href="https://thebronx.org/digital-equity-coalition" target="_blank">The Bronx Digital Equity Coalition</a> are fighting for broadband for all.
-  </p>
-  <p>
-    With the right investments, we can make sure every Bronx student logs in—equally.
-  </p>
+  <p>No student should have to chase WiFi in a fast food parking lot to finish homework.</p>
+  <p>No family should have to choose between groceries and a $90/month internet bill.</p>
+  <p><strong>Digital equity is a racial, economic, and educational justice issue.</strong></p>
 </section>
 
 <style>
@@ -226,4 +194,62 @@
       height: 400px;
     }
   }
+  .left-aligned-section {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    color: #f5f2ea;
+    background-color: #02022d;
+    margin-bottom: 2rem;
+  }
+
+  .left-aligned-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f5f2ea;
+  }
+
+  .left-aligned-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .left-aligned-section strong {
+    color: #f5f2ea;
+  }
+  .left-aligned-section em {
+    font-style: italic;
+    color: #f5f2ea;
+  }
+
+  .left-aligned-section a {
+    color: #90CAF9;
+    font-weight: bold;
+  }
+
+  @media (max-width: 600px) {
+    .left-aligned-section {
+    }
+
+    .left-aligned-section h2 {
+      font-size: 1.6rem;
+    }
+
+    .left-aligned-section p {
+      font-size: 1rem;
+    }
+  }
+  .section-image {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.section-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
 </style>
