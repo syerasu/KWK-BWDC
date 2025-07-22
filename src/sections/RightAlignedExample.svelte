@@ -86,7 +86,8 @@
 </div>
 
 <!-- Broadband Gap Section -->
-<section class="left-aligned-section">
+<section class="background-image-section">
+  <div class="overlay">
   <h2>The Bronx is buffering.</h2>
   <p> The Bronx is home to over 1.4 million people, yet it’s often left behind in the digital age. Nearly <strong>1 in 4 households</strong> in the Bronx still don’t have reliable broadband internet.
   </p>
@@ -95,24 +96,8 @@
   </p>
   <p> Only 22% of Bronx residents (age 25+) hold a bachelor’s degree, among the lowest in NYC.
   </p>
-</section>
-<div class="section-image">
-  <img src="/us.jpg/" alt="US Map" />
 </div>
-<!-- Education + Internet Section -->
-<section class="left-aligned-section">
-  <h2>Disconnected—and left behind</h2>
-  <p>
-    The digital divide mirrors another long-standing barrier: education.
-  </p>
-  <p>
-    In the Bronx, only <strong>22% of adults</strong> hold a bachelor’s degree. That’s nearly half the citywide average.
-  </p>
-  <p>
-    How can students thrive when <em>30% of low-income families</em> with kids can’t get online at home?
-  </p>
 </section>
-
 
 <style>
   .chart {
@@ -132,7 +117,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
   }
@@ -142,7 +126,6 @@
     background-color: #02022d;
     padding: 2rem;
     border: 6px solid #D4AF37;
-    box-shadow: 16px 16px #FFECB3;
   }
 
   h1 {
@@ -153,7 +136,7 @@
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #f5f2ea;
     margin-top: 1rem;
   }
@@ -164,10 +147,10 @@
     }
 
     p {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
-  /* Left-Aligned Section Styling */
+  /* Section Styling */
 .left-aligned-section {
   background-color: #02022d;
   padding: 3rem 2rem;
@@ -177,17 +160,21 @@
   border-radius: 8px;
   box-shadow: 12px 12px 0 #FFECB3;
   font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .left-aligned-section h2 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: #f5f2ea;
   margin-bottom: 1rem;
   text-shadow: 1px 1px 0 #FFECB3;
 }
 
 .left-aligned-section p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #f5f2ea;
   margin-bottom: 1rem;
   line-height: 1.6;
@@ -198,7 +185,6 @@
   max-width: 800px;
   margin: 2rem auto;
   text-align: center;
-  padding: 0 1rem;
 }
 
 .section-image img {
@@ -209,7 +195,6 @@
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
 }
 
-/* Responsive Typography */
 @media (max-width: 600px) {
   .left-aligned-section h2 {
     font-size: 1.6rem;
@@ -222,5 +207,37 @@
   .section-image img {
     max-height: 280px;
   }
+}
+.background-image-section {
+  background-image: url('/us.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f5f2ea;
+  padding: 8rem 6rem;
+  text-align: left;
+  position: relative;
+}
+
+.background-image-section .overlay {
+  background-color: rgba(2, 2, 45, 0.8); 
+  padding: 2rem;
+  border: 4px solid #D4AF37;
+  max-width: 700px;
+  box-shadow: 12px 12px #FFECB3;
+  font-family: 'Inter', sans-serif;
+}
+
+.background-image-section h2 {
+  font-size: 2.5rem;
+  color: #FFECB3;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 0 #02022d;
+}
+
+.background-image-section p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #f5f2ea;
 }
 </style>

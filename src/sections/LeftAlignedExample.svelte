@@ -161,31 +161,24 @@
   </Scroller>
 </div>
 
-<!-- Section 1 -->
-<section class="left-aligned-section">
-  <h2>Disconnected—and left behind</h2>
-  <p>The digital divide mirrors another long-standing barrier: education.</p>
-  <p>In the Bronx, only <strong>22% of adults</strong> hold a bachelor’s degree. That’s nearly half the citywide average.</p>
-  <p>How can students thrive when <em>30% of low-income families</em> with kids can’t get online at home?</p>
-</section>
+<section class="image-with-text-overlays">
+  <div class="text-box top-left">
+    <h2>Disconnected—and left behind</h2>
+    <p>The digital divide mirrors another long-standing barrier: education.</p>
+    <p>In the Bronx, only <strong>22% of adults</strong> hold a bachelor’s degree.</p>
+  </div>
 
-<!-- Image Between Sections -->
-<div class="section-image">
-  <img src="pexels-maoriginalphotography-2168975.jpg" alt="Bronx education gap" />
-</div>
-
-<!-- Section 3 -->
-<section class="left-aligned-section">
-  <h2>Broadband is a basic right</h2>
-  <p>No student should have to chase WiFi in a fast food parking lot to finish homework.</p>
-  <p>No family should have to choose between groceries and a $90/month internet bill.</p>
-  <p><strong>Digital equity is a racial, economic, and educational justice issue.</strong></p>
+  <div class="text-box bottom-right">
+    <h2>Broadband is a basic right</h2>
+    <p>No student should have to chase WiFi in a fast food parking lot.</p>
+    <p><strong>Digital equity is a justice issue.</strong></p>
+  </div>
 </section>
 
 <style>
   .chart-container {
     width: 100%;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
   }
 
@@ -194,62 +187,63 @@
       height: 400px;
     }
   }
-  .left-aligned-section {
-    margin: 0 auto;
-    font-family: 'Inter', sans-serif;
-    color: #f5f2ea;
-    background-color: #02022d;
-    margin-bottom: 2rem;
-  }
 
-  .left-aligned-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #f5f2ea;
-  }
-
-  .left-aligned-section p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-  }
-
-  .left-aligned-section strong {
-    color: #f5f2ea;
-  }
-  .left-aligned-section em {
-    font-style: italic;
-    color: #f5f2ea;
-  }
-
-  .left-aligned-section a {
-    color: #90CAF9;
-    font-weight: bold;
-  }
-
-  @media (max-width: 600px) {
-    .left-aligned-section {
-    }
-
-    .left-aligned-section h2 {
-      font-size: 1.6rem;
-    }
-
-    .left-aligned-section p {
-      font-size: 1rem;
-    }
-  }
-  .section-image {
-  text-align: center;
-  margin: 2rem auto;
-  max-width: 800px;
+  .image-with-text-overlays {
+  position: relative;
+  background-image: url('pexels-maoriginalphotography-2168975.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-family: 'Inter', sans-serif;
+  color: #f5f2ea;
 }
 
-.section-image img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
+.text-box {
+  position: absolute;
+  max-width: 50%%;
+  padding: 1.5rem;
+  background-color: rgba(2, 2, 45, 0.75); /* semi-transparent dark background */
   border-radius: 0.5rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.text-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #FFECB3;
+}
+
+.text-box p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.top-left {
+  top: 4rem;
+  left: 2rem;
+}
+
+.bottom-right {
+  bottom: 4rem;
+  right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .image-with-text-overlays {
+    height: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-box {
+    position: static;
+    max-width: 100%;
+    margin: 1rem 0;
+  }
 }
 </style>
