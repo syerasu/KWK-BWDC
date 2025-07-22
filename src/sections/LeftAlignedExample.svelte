@@ -163,7 +163,7 @@
 
 <section class="image-with-text-overlays">
   <div class="text-box top-left">
-    <h2>Disconnected—and left behind</h2>
+    <h2>Disconnected and left behind</h2>
     <p>The digital divide mirrors another long-standing barrier: education.</p>
     <p>In the Bronx, only <strong>22% of adults</strong> hold a bachelor’s degree.</p>
   </div>
