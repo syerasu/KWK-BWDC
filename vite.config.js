@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite';
-import svelte from '@sveltejs/vite-plugin-svelte';
+import { defineConfig } from 'vite'
+import { svelte } from '@sveltejs/vite-plugin-svelte'
 
+// https://vite.dev/config/
 export default defineConfig({
-  base: '/KWK-BWDC/',
   plugins: [svelte()],
-});
+  base: '/KWK-BWDC/'
+})
