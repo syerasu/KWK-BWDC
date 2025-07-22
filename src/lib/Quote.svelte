@@ -11,16 +11,13 @@
 
 <style>
     .title-card {
-        background: url('/pexels-brett-sayles-4734936.jpg') no-repeat center center;
+        background-color:#02022d;
         background-size: cover;
-        height: 100vh;
+        height: 50vh;
         display: flex;
-        justify-content: center;  
-        align-items: flex-end;   
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        padding: 2rem;
-        box-sizing: border-box;
-        font-family: "Inter", sans-serif;
         padding: 2rem;
         box-sizing: border-box;
         font-family: "Inter", sans-serif;
@@ -28,7 +25,11 @@
 
     .content {
         max-width: 700px;
+        background-color: #02022d ;
         padding: 2rem;
+        border: 6px solid #D4AF37;
+        box-shadow: 16px 16px #FFECB3
+;
     }
 
     h1 {

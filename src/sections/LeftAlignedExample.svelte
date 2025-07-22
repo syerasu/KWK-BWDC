@@ -161,17 +161,6 @@
   </Scroller>
 </div>
 
-<!-- Broadband Gap Section -->
-<section class="left-aligned-section">
-  <h2>The Bronx is buffering.</h2>
-  <p>
-    In one of the most vibrant, culturally rich places in the U.S., nearly <strong>1 in 4 households</strong> in the Bronx still don’t have reliable broadband internet.
-  </p>
-  <p>
-    Compare that to just <strong>1 in 10</strong> in Manhattan. This isn’t just a tech issue—it’s a symptom of something deeper.
-  </p>
-</section>
-
 <!-- Education + Internet Section -->
 <section class="left-aligned-section">
   <h2>Disconnected—and left behind</h2>
@@ -197,20 +186,6 @@
   </p>
   <p>
     Technology—and opportunity—aren’t distributed equally.
-  </p>
-</section>
-
-<!-- Personal/Local Voice Section -->
-<section class="left-aligned-section">
-  <h2>"We had WiFi, but it never worked"</h2>
-  <p>
-    <em>“During COVID, I had to write essays on my phone data. The WiFi at home barely loaded Google Docs.”</em>  
-  </p>
-  <p>
-    Stories like this one, from a high school junior in the South Bronx, aren’t rare. They’re the norm.
-  </p>
-  <p>
-    The Bronx isn’t behind—it’s been held back.
   </p>
 </section>
 

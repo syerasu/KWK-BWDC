@@ -67,11 +67,7 @@
       <p>
         📊 This chart represents estimated 2024 household spending breakdowns in the Bronx.
       </p>
-      <p>
-        Want to learn how to build your own? Check out the
-        <a href="https://www.highcharts.com/demo">Highcharts demo gallery</a> or
-        explore the <a href="https://api.highcharts.com/highcharts/">API reference</a>.
-      </p>
+
     {/snippet}
 
     {#snippet scrolly()}
@@ -89,6 +85,18 @@
     {/snippet}
   </Scroller>
 </div>
+<!-- Broadband Gap Section -->
+<section class="left-aligned-section">
+  <h2>The Bronx is buffering.</h2>
+  <p> The Bronx is home to over 1.4 million people, yet it’s often left behind in the digital age. Nearly <strong>1 in 4 households</strong> in the Bronx still don’t have reliable broadband internet.
+  </p>
+  <p>
+    Compare that to just <strong>1 in 10</strong> in Manhattan. This isn’t just a tech issue—it’s a symptom of something deeper.
+  </p>
+  <p> Only 22% of Bronx residents (age 25+) hold a bachelor’s degree, among the lowest in NYC.
+  </p>
+</section>
+
 
 <style>
   .chart {
