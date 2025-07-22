@@ -203,7 +203,7 @@
 
 .text-box {
   position: absolute;
-  max-width: 50%%;
+  max-width: 50%;
   padding: 1.5rem;
   background-color: rgba(2, 2, 45, 0.75); /* semi-transparent dark background */
   border-radius: 0.5rem;

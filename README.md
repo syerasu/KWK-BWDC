@@ -32,3 +32,6 @@ https://unsplash.com/photos/aerial-photography-of-city-during-night-time-1lfI7wk
 https://www.pexels.com/photo/vehicles-passing-by-road-in-new-york-2168975/ 
 https://unsplash.com/photos/world-map-chart-BEF-7cpER3s
 https://www.pexels.com/photo wooden-frame-with-white-inscription-on-dark-background-4734936/
+
+## Use of AI 
+I used AI to help me debug my code when I was not able to immediately meet with and instructor and it was used in areas that I was stuck or could not figure out what the isssue was. This was mostly with deploying my site to GitHub. 
