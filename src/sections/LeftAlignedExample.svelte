@@ -178,7 +178,7 @@
 <style>
   .chart-container {
     width: 100%;
-    height: 700px;
+    height: 400px;
     margin: 0 auto;
   }
 
