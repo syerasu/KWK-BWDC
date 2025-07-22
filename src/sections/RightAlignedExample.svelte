@@ -173,26 +173,11 @@
   text-shadow: 1px 1px 0 #FFECB3;
 }
 
-.left-aligned-section p {
-  font-size: 1rem;
-  color: #f5f2ea;
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
 /* Section Image Block */
 .section-image {
   max-width: 800px;
   margin: 2rem auto;
   text-align: center;
-}
-
-.section-image img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 600px) {
