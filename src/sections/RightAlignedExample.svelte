@@ -100,9 +100,10 @@
 </section>
 
 <style>
-  .chart {
-    width: 90%;
-    margin: 0px auto;
+  .chart-container {
+    width: 100%;
+    height: 600px;
+    margin: 1 auto;
   }
 
   a {

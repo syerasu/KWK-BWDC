@@ -178,8 +178,8 @@
 <style>
   .chart-container {
     width: 100%;
-    height: 400px;
-    margin: 0 auto;
+    height: 600px;
+    margin: 1 auto;
   }
 
   @media (max-width: 768px) {
