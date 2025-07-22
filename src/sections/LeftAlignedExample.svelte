@@ -160,6 +160,84 @@
   </Scroller>
 </div>
 
+<!-- Broadband Gap Section -->
+<section class="left-aligned-section">
+  <h2>The Bronx is buffering.</h2>
+  <p>
+    In one of the most vibrant, culturally rich places in the U.S., nearly <strong>1 in 4 households</strong> in the Bronx still don’t have reliable broadband internet.
+  </p>
+  <p>
+    Compare that to just <strong>1 in 10</strong> in Manhattan. This isn’t just a tech issue—it’s a symptom of something deeper.
+  </p>
+</section>
+
+<!-- Education + Internet Section -->
+<section class="left-aligned-section">
+  <h2>Disconnected—and left behind</h2>
+  <p>
+    The digital divide mirrors another long-standing barrier: education.
+  </p>
+  <p>
+    In the Bronx, only <strong>22% of adults</strong> hold a bachelor’s degree. That’s nearly half the citywide average.
+  </p>
+  <p>
+    How can students thrive when <em>30% of low-income families</em> with kids can’t get online at home?
+  </p>
+</section>
+
+<!-- Visual Contrast Section (Insert chart or map here) -->
+<section class="left-aligned-section">
+  <h2>A map of modern-day inequity</h2>
+  <p>
+    This chart reveals a sobering correlation: neighborhoods with the <strong>lowest internet access</strong> often have the <strong>lowest college attainment</strong, too.
+  </p>
+  <p>
+    In communities like Mott Haven, the numbers drop to just <strong>16% with a bachelor’s degree</strong>.
+  </p>
+  <p>
+    Technology—and opportunity—aren’t distributed equally.
+  </p>
+</section>
+
+<!-- Personal/Local Voice Section -->
+<section class="left-aligned-section">
+  <h2>"We had WiFi, but it never worked"</h2>
+  <p>
+    <em>“During COVID, I had to write essays on my phone data. The WiFi at home barely loaded Google Docs.”</em>  
+  </p>
+  <p>
+    Stories like this one, from a high school junior in the South Bronx, aren’t rare. They’re the norm.
+  </p>
+  <p>
+    The Bronx isn’t behind—it’s been held back.
+  </p>
+</section>
+
+<!-- Call to Action Section -->
+<section class="left-aligned-section">
+  <h2>Broadband is a basic right</h2>
+  <p>
+    No student should have to chase WiFi in a fast food parking lot to finish homework.
+  </p>
+  <p>
+    No family should have to choose between groceries and a $90/month internet bill.
+  </p>
+  <p>
+    <strong>Digital equity is a racial, economic, and educational justice issue.</strong>
+  </p>
+</section>
+
+<!-- Closing: Hopeful note + resource -->
+<section class="left-aligned-section">
+  <h2>The future is fiber—and fair funding</h2>
+  <p>
+    Organizations like <a href="https://thebronx.org/digital-equity-coalition" target="_blank">The Bronx Digital Equity Coalition</a> are fighting for broadband for all.
+  </p>
+  <p>
+    With the right investments, we can make sure every Bronx student logs in—equally.
+  </p>
+</section>
+
 <style>
   .chart-container {
     width: 100%;
