@@ -190,7 +190,7 @@
 
   .image-with-text-overlays {
   position: relative;
-  background-image: url('./newyork.jpg');
+  background-image: url('/newyork.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
